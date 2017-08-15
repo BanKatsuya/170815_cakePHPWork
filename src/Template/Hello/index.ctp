@@ -1,4 +1,7 @@
 <h1>サンプル見出し</h1>
-<p>こんにちは！これは、CakePHPのサンプルです。</p>
+<p>フォームの送信</p>
 <br/><br/>
-<?php print(date('Y/m/d', time()));?>
+<form method="get" action="/hello/sendForm">
+    <input type="text" name="text1" />
+    <input type="submit">
+</form>
